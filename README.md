@@ -97,3 +97,17 @@ Users upload HR documents in:
   2.  what if it is their birthday on the day they join?
   3.   Employment contract details ?
   
+# Assumptions & Limitations
+
+  1. Only supports English HR documents
+  2. Assumes documents contain clear, structured, machine-readable text (not scanned images)
+  3. RAG performance depends on the quality and completeness of the uploaded documents
+  4. If information is missing or unclear in documents, the system responds:
+     "Answer is not available in the context.”
+
+# Future Improvements
+
+  1. Support for multi-language HR documents
+  2. Support for multi-language HR documents
+  3. Add an evaluation dashboard for testing query quality
+  4. Integrate scalable vector databases like Pinecone or Chroma
