@@ -27,7 +27,10 @@ Step 3 - Install Dependencies
 
 
 ## Running the Application
+
+
 streamlit run app.py
+
 
 Open in browser:  http://localhost:8501
 
