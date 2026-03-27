@@ -1,4 +1,4 @@
-# HR Policy RAG Assistant
+#                                            HR Policy RAG Assistant
 
 ## AI/ML Engineer Technical Assignment – Retrieval Augmented Generation (RAG) Chatbot
 
