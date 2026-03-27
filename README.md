@@ -7,7 +7,7 @@ This project implements a Retrieval-Augmented Generation (RAG) based HR assistan
 The system retrieves relevant content from uploaded documents and uses a Large Language Model to generate context-aware answers grounded strictly in document content.
 
 
-# Environment Setup
+# 🛠️ Environment Setup
 Step 1 - Create Virtual Environment
 
 RAG_Project\Scripts\activate
@@ -25,7 +25,7 @@ streamlit run app.py
 
 Open in browser:  http://localhost:8501
 
-# Architecture Overview (RAG Pipeline)
+# 🧠 Architecture Overview (RAG Pipeline)
 
 This system follows a complete RAG architecture:
 
@@ -94,7 +94,7 @@ Users upload HR documents in:
   Source citation in answers
 
 
-# Sample Questions to Test
+# ❓ Sample Questions to Test
 
   1. Tell me about the leave policy for new joiners ?
   2.  what if it is their birthday on the day they join?
@@ -108,7 +108,7 @@ Users upload HR documents in:
   4. If information is missing or unclear in documents, the system responds:
      "Answer is not available in the context.”
 
-# Future Improvements
+# 🚀 Future Improvements
 
   1. Support for multi-language HR documents
   2. Support for multi-language HR documents
