@@ -8,21 +8,22 @@ The system retrieves relevant content from uploaded documents and uses a Large L
 
 
 # Environment Setup
-Step 1 — Create Virtual Environment
+Step 1 - Create Virtual Environment
 
 RAG_Project\Scripts\activate
 
-Step 2 — Activate Environment
+Step 2 - Activate Environment
 
 RAG_Project\Scripts\activate
 
-## Step 3 — Install Dependencies
+Step 3 - Install Dependencies
+
 pip install -r requirements.txt
 
 ## Running the Application
 streamlit run app.py
 
-## Open in browser:  http://localhost:8501
+Open in browser:  http://localhost:8501
 
 # Architecture Overview (RAG Pipeline)
 
@@ -113,3 +114,12 @@ Users upload HR documents in:
   2. Support for multi-language HR documents
   3. Add an evaluation dashboard for testing query quality
   4. Integrate scalable vector databases like Pinecone or Chroma
+
+# Design Decisions
+
+  * Streamlit chosen for quick UI development and multi-file upload support
+  * FAISS used for fast and lightweight local vector similarity search
+  * Chunk size (1000) and overlap (200) tuned to balance context retention and retrieval accuracy
+  * Expandable conversation history for a clean user interface
+  * HuggingFace embeddings used to avoid paid embedding APIs
+  * Gemini Flash selected for fast and cost-effective response generation
