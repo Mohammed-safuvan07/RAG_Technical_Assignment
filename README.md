@@ -11,19 +11,19 @@ The system retrieves relevant content from uploaded documents and uses a Large L
 Step 1 - Create Virtual Environment
 
 
-RAG_Project\Scripts\activate
+     ''' RAG_Project\Scripts\activate'''
 
 
 Step 2 - Activate Environment
 
 
-RAG_Project\Scripts\activate
+      RAG_Project\Scripts\activate
 
 
 Step 3 - Install Dependencies
 
 
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
 
 ## Running the Application
