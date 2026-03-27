@@ -8,10 +8,10 @@ The system retrieves relevant content from uploaded documents and uses a Large L
 
 
 # Environment Setup
-Step 1 — Create Virtual Environment
+##Step 1 — Create Virtual Environment
 RAG_Project\Scripts\activate
 
-Step 2 — Activate Environment
+##Step 2 — Activate Environment
 RAG_Project\Scripts\activate
 
 ## Step 3 — Install Dependencies
@@ -81,14 +81,14 @@ Users upload HR documents in:
 
 # Key Features Implemented
 
-✅ Multi-document upload from UI
-✅ Metadata tracking (source & page number)
-✅ Semantic chunking
-✅ HuggingFace embeddings
-✅ FAISS vector database
-✅ Grounded LLM responses
-✅ Conversation memory
-✅ Source citation in answers
+  Multi-document upload from UI
+  Metadata tracking (source & page number)
+  Semantic chunking
+  HuggingFace embeddings
+  FAISS vector database
+  Grounded LLM responses
+  Conversation memory
+  Source citation in answers
 
 
 # Sample Questions to Test
